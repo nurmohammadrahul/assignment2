@@ -28,9 +28,11 @@ nav {
 .navspan {
     color: #FF5400;
 }
-.nav3{
+
+.nav3 {
     display: none;
 }
+
 .nav1 img {
     width: 50px;
     height: 50px;
@@ -48,7 +50,7 @@ nav ul li {
 nav li a {
     text-decoration: none;
     color: #424247;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -108,28 +110,68 @@ nav li a {
     padding: 16px 10px 16px 20px;
 }
 
+/* popular */
+.popular {
+    display: flex;
+    gap: 7rem;
+    margin: 50px 80px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.popular-pic{
+    width: 100%;
+}
+.popular-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+
+.btn-pri {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 @media screen and (max-width: 600px) {
-    header{
+    header,
+    .popular {
         margin: 10px 0;
     }
-    .header-input{
+
+    .header-input,
+    .popular{
         flex-direction: column;
     }
-    .header-input{
+    .popular-pic img{
+        width: 100%;
+    }
+
+    .header-input {
         gap: 10px;
     }
-    nav ul{
+
+    nav ul {
         display: none;
     }
-    .nav3{
+
+    .nav3 {
         display: flex;
         width: 50px;
         height: 50px;
-        
+
     }
-    nav{
+
+    nav {
         gap: 30px;
     }
-    
+
 
 }
