@@ -306,6 +306,35 @@ footer {
     color: #131318;
     font-weight: 400;
 }
+/* new section */
+.hotels-card{
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    border: 2px solid white;
+}
+.hotels-name{
+    display: flex;
+    justify-content: space-between;
+}
+.hotels-title{
+    text-align: center;
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.titless{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hotels-card p{
+    color: #131318;
+    font-weight: 400;
+}
 @media screen and (max-width: 600px) {
 
     header,
@@ -316,7 +345,8 @@ footer {
     .header-input,
     .popular,
     .card-container,
-    .news {
+    .news,
+    .hotels-name {
         flex-direction: column;
     }
 
