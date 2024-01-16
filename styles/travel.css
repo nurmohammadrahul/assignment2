@@ -178,7 +178,7 @@ main {
 }
 
 .choose-des {
-    
+
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-weight: 400;
@@ -200,8 +200,77 @@ main {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.card2{
+
+.card2 {
     background: rgba(41, 206, 246, 0.05);
+}
+
+/* news */
+.news {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+
+.email {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 1rem;
+}
+
+.subs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newstitle {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsdes {
+    color: #5A5A5D;
+    font-weight: 400;
+}
+
+.subs input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 10px;
+}
+
+.subs button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+}
+
+.newspic img {
+    width: 100%;
+}
+
+.save {
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    position: relative;
+    transform: rotate(-19.628deg);
+    top: 70%;
+    left: 47%;
 }
 
 @media screen and (max-width: 600px) {
@@ -213,14 +282,19 @@ main {
 
     .header-input,
     .popular,
-    .card-container {
+    .card-container ,
+    .news{
         flex-direction: column;
     }
-   
-    .card{
+
+    .card {
         width: 85%;
     }
-
+    .save{
+        font-size: 1rem;
+         top: 11rem;
+         left: 60%;
+    }
     .popular-pic img {
         width: 100%;
     }
@@ -239,7 +313,6 @@ main {
         height: 50px;
 
     }
-
     nav {
         gap: 30px;
     }
